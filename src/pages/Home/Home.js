@@ -3,6 +3,12 @@ import ReactTypingEffect from 'react-typing-effect';
 import bgImg from './../../assets/bg.webp';
 import { FaRegHeart } from 'react-icons/fa'
 import { GoLocation } from 'react-icons/go'
+import google from './../../assets/g.png'
+import microsoft from './../../assets/m.webp'
+import amazone from './../../assets/a.jpg'
+import apple from './../../assets/apple.jpg'
+import twitter from './../../assets/t.jpg'
+import meta from './../../assets/meta.webp'
 const Home = () => {
     return (
         <div>
@@ -226,7 +232,7 @@ const Home = () => {
                     <div className='border px-8 py-6 rounded-xl'>
                         <div className='flex gap-4'>
                             <div className='w-14'>
-                                <img className='w-full' src="https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png" alt="" />
+                                <img className='w-full' src={google} alt="" />
                             </div>
                             <div className='flex grow justify-between items-top'>
                                 <div className='text-left'>
@@ -254,7 +260,91 @@ const Home = () => {
                     <div className='border px-8 py-6 rounded-xl'>
                         <div className='flex gap-4'>
                             <div className='w-14'>
-                                <img className='w-full' src="https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png" alt="" />
+                                <img className='w-full rounded-full' src={microsoft} alt="" />
+                            </div>
+                            <div className='flex grow justify-between items-top'>
+                                <div className='text-left'>
+                                    <h2 className='font-semibold text-lg '>React Js Developer</h2>
+                                    <p>by Microsoft</p>
+                                </div>
+                                <div className='text-xl pt-1'>
+                                    <FaRegHeart></FaRegHeart>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex mt-3 justify-between items-end'>
+                            <div className='flex gap-3'>
+                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
+                                    <GoLocation></GoLocation>
+                                    <span className='text-primary text-xs'>California</span>
+                                </div>
+                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
+                                    <span className='text-primary text-xs'>$100 - $200/month</span>
+                                </div>
+                            </div>
+                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                        </div>
+                    </div>
+                    <div className='border px-8 py-6 rounded-xl'>
+                        <div className='flex gap-4'>
+                            <div className='w-14'>
+                                <img className='w-full' src={amazone} alt="" />
+                            </div>
+                            <div className='flex grow justify-between items-top'>
+                                <div className='text-left'>
+                                    <h2 className='font-semibold text-lg'>Back End Developer</h2>
+                                    <p>by Amazone</p>
+                                </div>
+                                <div className='text-xl pt-1'>
+                                    <FaRegHeart></FaRegHeart>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex mt-3 justify-between items-end'>
+                            <div className='flex gap-3'>
+                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
+                                    <GoLocation></GoLocation>
+                                    <span className='text-primary text-xs'>California</span>
+                                </div>
+                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
+                                    <span className='text-primary text-xs'>$100 - $200/month</span>
+                                </div>
+                            </div>
+                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                        </div>
+                    </div>
+                    <div className='border px-8 py-6 rounded-xl'>
+                        <div className='flex gap-4'>
+                            <div className='w-14'>
+                                <img className='w-full rounded-full' src={apple} alt="" />
+                            </div>
+                            <div className='flex grow justify-between items-top'>
+                                <div className='text-left'>
+                                    <h2 className='font-semibold text-lg'>Front End Developer</h2>
+                                    <p>by Apple</p>
+                                </div>
+                                <div className='text-xl pt-1'>
+                                    <FaRegHeart></FaRegHeart>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex mt-3 justify-between items-end'>
+                            <div className='flex gap-3'>
+                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
+                                    <GoLocation></GoLocation>
+                                    <span className='text-primary text-xs'>California</span>
+                                </div>
+                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
+                                    <span className='text-primary text-xs'>$100 - $200/month</span>
+                                </div>
+                            </div>
+                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                        </div>
+                    </div>
+                    <div className='border px-8 py-6 rounded-xl'>
+                        <div className='flex gap-4'>
+                            <div className='w-14'>
+                                <img className='w-full' src={meta} alt="" />
                             </div>
                             <div className='flex grow justify-between items-top'>
                                 <div className='text-left'>
@@ -282,91 +372,7 @@ const Home = () => {
                     <div className='border px-8 py-6 rounded-xl'>
                         <div className='flex gap-4'>
                             <div className='w-14'>
-                                <img className='w-full' src="https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png" alt="" />
-                            </div>
-                            <div className='flex grow justify-between items-top'>
-                                <div className='text-left'>
-                                    <h2 className='font-semibold text-lg'>Front End Developer</h2>
-                                    <p>by Google</p>
-                                </div>
-                                <div className='text-xl pt-1'>
-                                    <FaRegHeart></FaRegHeart>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='flex mt-3 justify-between items-end'>
-                            <div className='flex gap-3'>
-                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
-                                    <GoLocation></GoLocation>
-                                    <span className='text-primary text-xs'>California</span>
-                                </div>
-                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
-                                    <span className='text-primary text-xs'>$100 - $200/month</span>
-                                </div>
-                            </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
-                        </div>
-                    </div>
-                    <div className='border px-8 py-6 rounded-xl'>
-                        <div className='flex gap-4'>
-                            <div className='w-14'>
-                                <img className='w-full' src="https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png" alt="" />
-                            </div>
-                            <div className='flex grow justify-between items-top'>
-                                <div className='text-left'>
-                                    <h2 className='font-semibold text-lg'>Front End Developer</h2>
-                                    <p>by Google</p>
-                                </div>
-                                <div className='text-xl pt-1'>
-                                    <FaRegHeart></FaRegHeart>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='flex mt-3 justify-between items-end'>
-                            <div className='flex gap-3'>
-                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
-                                    <GoLocation></GoLocation>
-                                    <span className='text-primary text-xs'>California</span>
-                                </div>
-                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
-                                    <span className='text-primary text-xs'>$100 - $200/month</span>
-                                </div>
-                            </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
-                        </div>
-                    </div>
-                    <div className='border px-8 py-6 rounded-xl'>
-                        <div className='flex gap-4'>
-                            <div className='w-14'>
-                                <img className='w-full' src="https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png" alt="" />
-                            </div>
-                            <div className='flex grow justify-between items-top'>
-                                <div className='text-left'>
-                                    <h2 className='font-semibold text-lg'>Front End Developer</h2>
-                                    <p>by Google</p>
-                                </div>
-                                <div className='text-xl pt-1'>
-                                    <FaRegHeart></FaRegHeart>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='flex mt-3 justify-between items-end'>
-                            <div className='flex gap-3'>
-                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
-                                    <GoLocation></GoLocation>
-                                    <span className='text-primary text-xs'>California</span>
-                                </div>
-                                <div className='text-primary bg-primary/10 flex items-center gap-1 px-4 py-2 rounded-full'>
-                                    <span className='text-primary text-xs'>$100 - $200/month</span>
-                                </div>
-                            </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
-                        </div>
-                    </div>
-                    <div className='border px-8 py-6 rounded-xl'>
-                        <div className='flex gap-4'>
-                            <div className='w-14'>
-                                <img className='w-full' src="https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png" alt="" />
+                                <img className='w-full rounded-full' src={twitter} alt="" />
                             </div>
                             <div className='flex grow justify-between items-top'>
                                 <div className='text-left'>

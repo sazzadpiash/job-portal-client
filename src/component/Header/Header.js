@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { Auth } from '../../context/AuthContext';
 import myLogo from './../../assets/Job.png'
 
 const Header = () => {
+    const { loading, user, logOut } = useContext(Auth);
     return (
         <div>
             <div className="navbar bg-transparent">
@@ -30,11 +32,24 @@ const Header = () => {
                 </div>
                 <div className="navbar-end  hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
+                        {/* <li>{user?.displayName}</li> */}
                         <li><Link>Home</Link></li>
                         <li><Link>About</Link></li>
                         <li><Link>Contact Us</Link></li>
                     </ul>
-                    <Link className="btn btn-primary btn-sm">Login</Link>
+                    {
+                        loading ? <button className="btn btn-primary btn-sm loading">loading</button>
+                            :
+                            <>
+                                {
+                                    user ? <button onClick={()=>logOut()} className="btn btn-primary btn-sm">Log out</button>
+                                        :
+                                        <Link to='/login' className="btn btn-primary btn-sm">Login</Link>
+                        }
+                            </>
+
+                    }
+
                 </div>
             </div>
         </div>
