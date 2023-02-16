@@ -9,7 +9,12 @@ import amazone from './../../assets/a.jpg'
 import apple from './../../assets/apple.jpg'
 import twitter from './../../assets/t.jpg'
 import meta from './../../assets/meta.webp'
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
+    const navigate = useNavigate();
+    const apply = () => {
+        navigate('/login');
+    }
     return (
         <div>
             <div
@@ -78,7 +83,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -106,7 +111,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -134,7 +139,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -162,7 +167,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -190,7 +195,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -218,7 +223,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
 
@@ -254,7 +259,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -282,7 +287,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -310,7 +315,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -338,7 +343,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -366,7 +371,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
                     <div className='border px-8 py-6 rounded-xl'>
@@ -394,7 +399,7 @@ const Home = () => {
                                     <span className='text-primary text-xs'>$100 - $200/month</span>
                                 </div>
                             </div>
-                            <button className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
+                            <button onClick={()=>apply()} className='btn btn-sm rounded-full btn-primary'>Apply Now</button>
                         </div>
                     </div>
 

@@ -28,14 +28,14 @@ const Header = () => {
                             <li><Link>Item 3</Link></li>
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-xl"><img className='w-36' src={myLogo} alt="" /></Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl"><img className='w-36' src={myLogo} alt="" /></Link>
                 </div>
                 <div className="navbar-end  hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {/* <li>{user?.displayName}</li> */}
-                        <li><Link>Home</Link></li>
-                        <li><Link>About</Link></li>
-                        <li><Link>Contact Us</Link></li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/about-us'>About</Link></li>
+                        <li><Link to='/contact-us'>Contact Us</Link></li>
                     </ul>
                     {
                         loading ? <button className="btn btn-primary btn-sm loading">loading</button>
